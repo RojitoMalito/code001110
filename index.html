@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Oculto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat:300,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+  <div class="portal-bg">
+    <canvas id="stars"></canvas>
+    <div class="center-box">
+      <svg class="lock-icon" width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#888" stroke-width="2" opacity="0.2"/><rect x="14" y="22" width="20" height="14" rx="6" fill="#181a20" stroke="#444" stroke-width="2"/><rect x="18" y="14" width="12" height="12" rx="6" fill="#222" stroke="#444" stroke-width="2"/><circle cx="24" cy="29" r="2" fill="#444"/></svg>
+      <input type="password" id="password" placeholder="Contraseña secreta" autocomplete="off" />
+      <button id="unlock">Desbloquear</button>
+      <div id="error-msg"></div>
+      <div id="entrar-container"></div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
